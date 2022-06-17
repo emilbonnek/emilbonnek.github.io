@@ -1,0 +1,505 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Emil Bonne Kristiansen</title>
+    <meta name="description" content="" />
+
+    <link rel="stylesheet" type="text/css" href="global.css" />
+    <link rel="stylesheet" type="text/css" href="print.css" media="print" />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon_package/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon_package/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon_package/favicon-16x16.png"
+    />
+    <link rel="manifest" href="favicon_package/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="favicon_package/safari-pinned-tab.svg"
+      color="#0b0b6e"
+    />
+    <meta name="apple-mobile-web-app-title" content="Emil Bonne Kristiansen" />
+    <meta name="application-name" content="Emil Bonne Kristiansen" />
+    <meta name="msapplication-TileColor" content="#0b0b6e" />
+    <meta name="theme-color" content="#0b0b6e" />
+
+    <link rel="stylesheet" type="text/css" href="signature-animation.css" />
+    <script src="signature-animation.js" defer></script>
+
+    <style>
+      /* Critical CSS */
+      h1 {
+        font-size: 1.2em;
+        margin-top: 0mm;
+      }
+      h2 {
+        font-size: 1.1em;
+        margin-bottom: 2mm;
+        text-transform: uppercase;
+      }
+      h3 {
+        font-size: 1em;
+        margin-bottom: 1.3mm;
+      }
+      h4 {
+        font-size: 0.9em;
+        margin-top: 2mm;
+        margin-bottom: 2mm;
+      }
+      p {
+        font-size: 1em;
+      }
+
+      body {
+        display: flex;
+        flex-flow: row wrap;
+        gap: 48px;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .page {
+        width: 210mm;
+        height: 297mm;
+      }
+
+      /* Page 1 */
+      #page-1 {
+        display: grid;
+        grid-template:
+          [row1-start] "profile-image profile-image   profile-description profile-description links             links" 40mm [row1-end]
+          [row2-start] "............. about-me        about-me            about-me            about-me          ....." auto [row2-end]
+          [row3-start] "............. work-experience work-experience     education           education         ....." auto [row3-end]
+          [row4-start] "............. work-experience work-experience     skills              skills            ....." auto [row4-end]
+          [row5-start] "............. work-experience work-experience     certifications      certifications    ....." auto [row5-end]
+          [row6-start] "............. work-experience work-experience     languages           languages         ....." 1fr [row6-end]
+          / 20mm 20mm auto 20mm 35mm 20mm;
+      }
+      #page-1 #profile-image {
+        grid-area: profile-image;
+      }
+      #page-1 #profile-description {
+        grid-area: profile-description;
+      }
+      #page-1 #links {
+        grid-area: links;
+      }
+      #page-1 #about-me {
+        grid-area: about-me;
+      }
+      #page-1 #work-experience {
+        grid-area: work-experience;
+      }
+      #page-1 #education {
+        grid-area: education;
+      }
+      #page-1 #skills {
+        grid-area: skills;
+      }
+      #page-1 #certifications {
+        grid-area: certifications;
+      }
+      #page-1 #languages {
+        grid-area: languages;
+      }
+
+      /* Page 2 */
+      #page-2 {
+        display: grid;
+        grid-template:
+          [row1-start] "header          header          header          header" 40mm [row1-end]
+          [row3-start] "......          volunteer-work  other-skills    ......" auto [row3-end]
+          [row4-start] "......          self-employment self-employment ......" 1fr [row4-end]
+          [row5-start] "......          signature       signature       ......" 8mm [row5-end]
+          [row5-start] "......          .........       .........       ......" 20mm [row5-end]
+          / 20mm auto 55mm 20mm;
+      }
+      #page-2 #header {
+        grid-area: header;
+      }
+      #page-2 #volunteer-work {
+        grid-area: volunteer-work;
+      }
+      #page-2 #self-employment {
+        grid-area: self-employment;
+      }
+      #page-2 #other-skills {
+        grid-area: other-skills;
+      }
+      #page-2 #signature {
+        grid-area: signature;
+      }
+
+      /* With external resources */
+      li.linkedin:before {
+        background-image: url("icons/linkedin.png");
+      }
+      li.github:before {
+        background-image: url("icons/github.png");
+      }
+      li.web:before {
+        background-image: url("icons/web.png");
+      }
+      li.mail:before {
+        background-image: url("icons/mail.png");
+      }
+      li.phone:before {
+        background-image: url("icons/phone.png");
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="page" id="page-1">
+      <div id="profile-image">
+        <img src="emilbonnek.jpg" height="100" />
+      </div>
+      <div id="profile-description">
+        <h1>Emil Bonne Kristiansen, 27</h1>
+        <ul>
+          <li class="mail">
+            <a href="mailto:emilbonnek@gmail.com">emilbonnek@gmail.com</a>
+          </li>
+          <li class="phone">
+            <a href="tel:+4529822645">(+45) 29 82 26 45</a>
+          </li>
+        </ul>
+      </div>
+      <div id="links">
+        <ul>
+          <li class="linkedin">
+            <a href="https://linkedin.com/in/emilbonnek">in/emilbonnek</a>
+          </li>
+          <li class="github">
+            <a href="https://github.com/emilbonnek">emilbonnek</a>
+          </li>
+          <li class="web">
+            <a href="https://emilbonnek.com">emilbonnek.com</a>
+          </li>
+        </ul>
+      </div>
+      <div id="about-me">
+        <section>
+          <h2>About me</h2>
+          <hr />
+          <p>
+            I am a software developer with a great passion for web technologies,
+            in relation to both backend and frontend development. I enjoy
+            working on hard problems in functional teams to build good software.
+            Like everyone, I have my favourite stack, but I am always open to
+            learn new technologies and frameworks and I tend to not find it
+            difficult to familiarize myself with areas new to me.
+          </p>
+        </section>
+      </div>
+      <div id="work-experience">
+        <h2>Work experience</h2>
+        <hr />
+        <section>
+          <h3>Software Developer, IT Minds</h3>
+          <small class="gray-and-bold">Copenhagen, 2020 - Now</small>
+          <p>
+            As a software developer consultant with IT Minds I have worked at
+            different companies in and around Copenhagen to deliver their
+            software applications in an agile manner. My development work has
+            been on the full stack with a variety of technologies ranging from
+            TypeScript to Java. Additionally I have also gotten to work with a
+            lot of DevOps and Cloud related projects using both Google Cloud
+            Platform and Microsoft Azure. Working as a consultant has improved
+            my skills as a developer and also taught me to better adapt to new
+            environments and projects.
+          </p>
+          <div class="chip-list">
+            <span class="chip">TypeScript</span>
+            <span class="chip">React</span>
+            <span class="chip">Node</span>
+            <span class="chip">Java</span>
+            <span class="chip">SQL</span>
+            <span class="chip">Docker</span>
+            <span class="chip">Google Cloud Platform</span>
+            <span class="chip">Microsoft Azure</span>
+          </div>
+        </section>
+        <section>
+          <h3>Trainee, Netcompany</h3>
+          <small class="gray-and-bold">Copenhagen, 2019 - 2020</small>
+          <p>
+            As a software developer trainee in Netcompany I maintained and
+            further developed SharePoint based Electronic Document and Records
+            Management systems (EDRMs) for local municipalities and worker
+            unions around Denmark. I worked with everything from data migrations
+            and GDPR data retention to website improvements and upgrading
+            software dependencies. Most of my work was managed through incident
+            reporting systems where I would prioritize my own work according to
+            customer needs.
+          </p>
+          <div class="chip-list">
+            <span class="chip">C#</span>
+            <span class="chip">JavaScript</span>
+            <span class="chip">PowerShell</span>
+            <span class="chip">SQL</span>
+          </div>
+        </section>
+      </div>
+      <div id="education">
+        <h2>Education</h2>
+        <hr />
+        <section>
+          <h3>Bachelors of Engineering Software Technology, DTU</h3>
+          <small class="gray-and-bold">Lyngby, 2017 - 2020</small>
+          <!-- <p style="padding-left: 6mm">
+              Thesis: 10 <span class="detail">(B)</span>
+            </p> -->
+        </section>
+      </div>
+      <div id="skills">
+        <h2>Skills</h2>
+        <hr />
+        <div class="image-list">
+          <img
+            height="40"
+            width="40"
+            src="logos/javascript.png"
+            alt="JavaDcript logo"
+            title="JavaScript"
+          />
+          <img
+            height="40"
+            width="40"
+            src="logos/react.png"
+            alt="React logo"
+            title="React"
+          />
+          <img
+            height="40"
+            width="40"
+            src="logos/node.png"
+            alt="Node logo"
+            title="Node"
+          />
+          <img
+            height="40"
+            width="40"
+            src="logos/angular.png"
+            alt="Angular logo"
+            title="Angular"
+          />
+          <img
+            height="40"
+            width="40"
+            src="logos/azure.png"
+            alt="Azure logo"
+            title="Azure"
+          />
+          <img
+            height="40"
+            width="40"
+            src="logos/java.png"
+            alt="Java logo"
+            title="Java"
+          />
+          <img
+            height="40"
+            width="40"
+            src="logos/docker.png"
+            alt="Docker logo"
+            title="Docker"
+          />
+          <img
+            height="40"
+            width="40"
+            src="logos/firebase.png"
+            alt="Firebase logo"
+            title="Firebase"
+          />
+          <img
+            height="40"
+            width="40"
+            src="logos/gcp.png"
+            alt="Google Cloud Platform logo"
+            title="Google Cloud Platform"
+          />
+          <img
+            height="40"
+            width="40"
+            src="logos/git.png"
+            alt="Git logo"
+            title="Git version control"
+          />
+          <img
+            height="40"
+            width="40"
+            src="logos/python.png"
+            alt="Python logo"
+            title="Python"
+          />
+          <img
+            height="40"
+            width="40"
+            src="logos/kubernetes.png"
+            alt="Kubernetes logo"
+            title="Kubernetes"
+          />
+          <img
+            height="40"
+            width="40"
+            src="logos/mysql.png"
+            alt="MySQL logo"
+            title="MySQL"
+          />
+          <img
+            height="40"
+            width="40"
+            src="logos/typescript.png"
+            alt="Typescript logo"
+            title="Typescript"
+          />
+        </div>
+      </div>
+      <div id="certifications">
+        <h2>Certifications</h2>
+        <hr />
+        <p>Google Cloud Platform Associate Cloud Engineer</p>
+      </div>
+      <div id="languages">
+        <h2>Languages</h2>
+        <hr />
+        <ul>
+          <li>Danish <span class="detail">(Native)</span></li>
+          <li>English <span class="detail">(Fluent)</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="page" id="page-2">
+      <div id="header"></div>
+      <div id="volunteer-work">
+        <h2>Volunteer work</h2>
+        <hr />
+        <section>
+          <h3>Board member, DTU Ultimate Frisbee</h3>
+          <small class="gray-and-bold">Lyngby, 2018 - 2019</small>
+          <p>
+            In 2018 I was on the board for my University's Ultimate Frisbee club
+            with 100+ members and was responsible for logistics and financials
+            for transportion to tournaments and games. I also managed the clubs
+            website and aligned it with the university's design guidelines.
+          </p>
+        </section>
+        <section>
+          <h3>Webmaster, Danish Frisbee Sport Union</h3>
+          <small class="gray-and-bold">2020 - Now</small>
+          <p>
+            Since 2020 I have been webmaster for the Danish Frisbee Sports
+            Union. My main tasks has been to take on responisibility of their
+            WordPress site and move it from a private hosting provider to a
+            cheaper alternative. I also set up a WooCommerce webshop for them to
+            sell frisbees and a website for a high school PE programme.
+          </p>
+        </section>
+      </div>
+      <div id="self-employment">
+        <h2>Self employment</h2>
+        <hr />
+        <section>
+          <h3>Disc Tree</h3>
+          <small class="gray-and-bold">2021 - Now</small>
+          <p>
+            Along with two friends I started an E-commerce business in 2021 that
+            sells
+            <a href="https://disctree.dk" class="secret-link"
+              >frisbees for Disc Golf and Ultimate Frisbee</a
+            >. My primary role has been to design and develop the webshop and
+            setup integrations to various systems for transport management and
+            book keeping. Additionally I have been making applications and
+            scripts to automate various tasks related to data collection,
+            reporting and image preperation.
+          </p>
+          <div class="chip-list">
+            <span class="chip">JavaScript</span>
+            <span class="chip">Shopify</span>
+            <span class="chip">React</span>
+            <span class="chip">Firebase</span>
+            <span class="chip">PWA</span>
+            <span class="chip">Python</span>
+          </div>
+        </section>
+      </div>
+      <div id="other-skills">
+        <h2>Other skills</h2>
+        <hr />
+        <ul>
+          <li>Agile development (Scrum)</li>
+          <li>Project management</li>
+          <li>Problem solving</li>
+          <li>Fundraising training</li>
+          <li>Drivers license</li>
+          <li></li>
+        </ul>
+      </div>
+
+      <div id="signature">
+        <svg
+          viewBox="0 0 532 78"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="signature-segment"
+            d="M99.4998 18.9995C98.3332 14.8328 92.1998 6.6995 76.9998 7.4995C57.9998 8.4995 42.9998 12.9995 43.9998 15.9995C44.9998 18.9995 55 21.9995 62.5 18.9995C65.5 16.9995 4.55068 23.4053 1.49996 58.9995C6.42166e-05 76.4995 24 79.9995 38 74.4995"
+            stroke="black"
+            stroke-width="3"
+          />
+          <path
+            class="signature-segment"
+            d="M67 31.9995L68.5 29.9995C66.5 37.9995 61.5 55.4995 58 59.9995C58 59.9995 76.9998 38.4995 87 36.4995C89 38.9995 88.5 48.9995 80 58.9995C80 58.9995 99.4998 36.4995 106 36.4995C109.5 36.4995 96.5 56.4995 99 58.9995C111.5 62.4995 132.5 41.9995 136 37.9995C129.167 44.3328 116.6 57.5995 121 59.9995C126.5 62.9995 192.5 32.4995 187 2.49948C181 -3.99999 144.5 48.5001 147 57.9995C148.167 61.9997 155.6 66.1 176 50.5"
+            stroke="black"
+            stroke-width="3"
+          />
+          <path
+            class="signature-segment"
+            d="M222 26C221.5 25.1667 220.5 22.8 220.5 20C220.5 16.5 251.13 3.88024 264.5 7C279.5 10.5 252 29 229 32C238.833 29.8333 258.5 27.4 258.5 35C258.5 44.5 222.63 61.94 211.5 63C200.5 61.5 225 35.5 233 26.5"
+            stroke="black"
+            stroke-width="3"
+          />
+          <path
+            class="signature-segment"
+            d="M277.5 42C281 40.5 288.9 33.1 290.5 33.5C293.5 34.25 297 40 293 47C289 54 277 59.5 274.5 59.5C272 59.5 270 57 270.5 54.5C271 52 277 43 282.5 39.5C282.5 39.5 278 50.5 301 41"
+            stroke="black"
+            stroke-width="3"
+          />
+          <path
+            class="signature-segment"
+            d="M314 36C314.167 41 311.5 51 303 60.5C303 60.5 327.5 35 334 37C337.446 38.0603 320.5 55.5 322.5 59.5C324.5 61.5 363 45 358 37C355.5 49 350 53.5 347.5 59.5C354 51 374.5 36 379 36C381.5 36 363.5 58.5 367 59.5C370.5 60.5 394.059 48.0807 397.5 45.5C389 61.5 412 56.5 414.5 33.5C414.5 30.5 393 38 397 55C400 63.5 417.167 60.6667 427.5 51.5"
+            stroke="black"
+            stroke-width="3"
+          />
+          <path
+            class="signature-segment"
+            d="M454.5 62.5C458.5 50 478.5 28.5 508 0.5C499.833 8.5 481 28 481 28C486 30 524.5 8 531.5 5C516.833 12.8333 486.1 28.7 480.5 29.5C498 40.5 512.5 51 509 64.5"
+            stroke="black"
+            stroke-width="3"
+          />
+          <path
+            class="signature-segment"
+            d="M153 15.9995C155 15.9995 156 12 153 12C151 12 151.5 15.9995 153 15.9995Z"
+            stroke="black"
+            stroke-width="3"
+          />
+        </svg>
+      </div>
+    </div>
+  </body>
+</html>

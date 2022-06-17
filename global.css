@@ -1,0 +1,376 @@
+body {
+  font-family: "Open Sans", sans-serif;
+
+  background-image: linear-gradient(
+      158deg,
+      rgba(84, 84, 84, 0.03) 0%,
+      rgba(84, 84, 84, 0.03) 20%,
+      rgba(219, 219, 219, 0.03) 20%,
+      rgba(219, 219, 219, 0.03) 40%,
+      rgba(54, 54, 54, 0.03) 40%,
+      rgba(54, 54, 54, 0.03) 60%,
+      rgba(99, 99, 99, 0.03) 60%,
+      rgba(99, 99, 99, 0.03) 80%,
+      rgba(92, 92, 92, 0.03) 80%,
+      rgba(92, 92, 92, 0.03) 100%
+    ),
+    linear-gradient(
+      45deg,
+      rgba(221, 221, 221, 0.02) 0%,
+      rgba(221, 221, 221, 0.02) 14.286%,
+      rgba(8, 8, 8, 0.02) 14.286%,
+      rgba(8, 8, 8, 0.02) 28.572%,
+      rgba(52, 52, 52, 0.02) 28.572%,
+      rgba(52, 52, 52, 0.02) 42.858%,
+      rgba(234, 234, 234, 0.02) 42.858%,
+      rgba(234, 234, 234, 0.02) 57.144%,
+      rgba(81, 81, 81, 0.02) 57.144%,
+      rgba(81, 81, 81, 0.02) 71.42999999999999%,
+      rgba(239, 239, 239, 0.02) 71.43%,
+      rgba(239, 239, 239, 0.02) 85.71600000000001%,
+      rgba(187, 187, 187, 0.02) 85.716%,
+      rgba(187, 187, 187, 0.02) 100.002%
+    ),
+    linear-gradient(
+      109deg,
+      rgba(33, 33, 33, 0.03) 0%,
+      rgba(33, 33, 33, 0.03) 12.5%,
+      rgba(147, 147, 147, 0.03) 12.5%,
+      rgba(147, 147, 147, 0.03) 25%,
+      rgba(131, 131, 131, 0.03) 25%,
+      rgba(131, 131, 131, 0.03) 37.5%,
+      rgba(151, 151, 151, 0.03) 37.5%,
+      rgba(151, 151, 151, 0.03) 50%,
+      rgba(211, 211, 211, 0.03) 50%,
+      rgba(211, 211, 211, 0.03) 62.5%,
+      rgba(39, 39, 39, 0.03) 62.5%,
+      rgba(39, 39, 39, 0.03) 75%,
+      rgba(55, 55, 55, 0.03) 75%,
+      rgba(55, 55, 55, 0.03) 87.5%,
+      rgba(82, 82, 82, 0.03) 87.5%,
+      rgba(82, 82, 82, 0.03) 100%
+    ),
+    linear-gradient(
+      348deg,
+      rgba(42, 42, 42, 0.02) 0%,
+      rgba(42, 42, 42, 0.02) 20%,
+      rgba(8, 8, 8, 0.02) 20%,
+      rgba(8, 8, 8, 0.02) 40%,
+      rgba(242, 242, 242, 0.02) 40%,
+      rgba(242, 242, 242, 0.02) 60%,
+      rgba(42, 42, 42, 0.02) 60%,
+      rgba(42, 42, 42, 0.02) 80%,
+      rgba(80, 80, 80, 0.02) 80%,
+      rgba(80, 80, 80, 0.02) 100%
+    ),
+    linear-gradient(
+      120deg,
+      rgba(106, 106, 106, 0.03) 0%,
+      rgba(106, 106, 106, 0.03) 14.286%,
+      rgba(67, 67, 67, 0.03) 14.286%,
+      rgba(67, 67, 67, 0.03) 28.572%,
+      rgba(134, 134, 134, 0.03) 28.572%,
+      rgba(134, 134, 134, 0.03) 42.858%,
+      rgba(19, 19, 19, 0.03) 42.858%,
+      rgba(19, 19, 19, 0.03) 57.144%,
+      rgba(101, 101, 101, 0.03) 57.144%,
+      rgba(101, 101, 101, 0.03) 71.42999999999999%,
+      rgba(205, 205, 205, 0.03) 71.43%,
+      rgba(205, 205, 205, 0.03) 85.71600000000001%,
+      rgba(53, 53, 53, 0.03) 85.716%,
+      rgba(53, 53, 53, 0.03) 100.002%
+    ),
+    linear-gradient(
+      45deg,
+      rgba(214, 214, 214, 0.03) 0%,
+      rgba(214, 214, 214, 0.03) 16.667%,
+      rgba(255, 255, 255, 0.03) 16.667%,
+      rgba(255, 255, 255, 0.03) 33.334%,
+      rgba(250, 250, 250, 0.03) 33.334%,
+      rgba(250, 250, 250, 0.03) 50.001000000000005%,
+      rgba(231, 231, 231, 0.03) 50.001%,
+      rgba(231, 231, 231, 0.03) 66.668%,
+      rgba(241, 241, 241, 0.03) 66.668%,
+      rgba(241, 241, 241, 0.03) 83.33500000000001%,
+      rgba(31, 31, 31, 0.03) 83.335%,
+      rgba(31, 31, 31, 0.03) 100.002%
+    ),
+    linear-gradient(
+      59deg,
+      rgba(224, 224, 224, 0.03) 0%,
+      rgba(224, 224, 224, 0.03) 12.5%,
+      rgba(97, 97, 97, 0.03) 12.5%,
+      rgba(97, 97, 97, 0.03) 25%,
+      rgba(143, 143, 143, 0.03) 25%,
+      rgba(143, 143, 143, 0.03) 37.5%,
+      rgba(110, 110, 110, 0.03) 37.5%,
+      rgba(110, 110, 110, 0.03) 50%,
+      rgba(34, 34, 34, 0.03) 50%,
+      rgba(34, 34, 34, 0.03) 62.5%,
+      rgba(155, 155, 155, 0.03) 62.5%,
+      rgba(155, 155, 155, 0.03) 75%,
+      rgba(249, 249, 249, 0.03) 75%,
+      rgba(249, 249, 249, 0.03) 87.5%,
+      rgba(179, 179, 179, 0.03) 87.5%,
+      rgba(179, 179, 179, 0.03) 100%
+    ),
+    linear-gradient(
+      241deg,
+      rgba(58, 58, 58, 0.02) 0%,
+      rgba(58, 58, 58, 0.02) 25%,
+      rgba(124, 124, 124, 0.02) 25%,
+      rgba(124, 124, 124, 0.02) 50%,
+      rgba(254, 254, 254, 0.02) 50%,
+      rgba(254, 254, 254, 0.02) 75%,
+      rgba(52, 52, 52, 0.02) 75%,
+      rgba(52, 52, 52, 0.02) 100%
+    ),
+    linear-gradient(90deg, #ffffff, #ffffff);
+}
+
+h2 {
+  color: #0b0b6e;
+}
+
+hr {
+  background-color: #0b0b6e;
+  height: 1px;
+  border: 0;
+}
+
+.page {
+  background: #fff;
+  box-shadow: 0 0 5mm rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* Profile image section */
+#page-1 #profile-image {
+  background-color: #0b0b6e;
+  display: grid;
+  place-items: center;
+}
+
+#page-1 #profile-image img {
+  border-radius: 50%;
+}
+
+/* Profile description section */
+#page-1 #profile-description {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  padding-left: 6px;
+
+  background-color: #0b0b6e;
+  color: #ffffff;
+}
+#page-1 #profile-description ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+#page-1 #profile-description ul li:not(:last-child) {
+  margin-bottom: 2mm;
+}
+#page-1 #profile-description ul li:before {
+  content: "";
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  background-size: 10px;
+  background-repeat: no-repeat;
+  margin-right: 5px;
+}
+#page-1 #profile-description ul li a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Links section */
+#page-1 #links {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+
+  background-color: #0b0b6e;
+  color: #ffffff;
+}
+#page-1 #links ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-size: 1.1em;
+}
+
+#page-1 #links ul li:not(:last-child) {
+  margin-bottom: 2mm;
+}
+#page-1 #links ul li:before {
+  content: "";
+  display: inline-block;
+  height: 11px;
+  width: 11px;
+  background-size: 11px;
+  background-repeat: no-repeat;
+  margin-right: 5px;
+}
+
+#page-1 #links ul li a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* About me section */
+#page-1 #about-me section h2 {
+  margin-top: 7mm;
+}
+
+/* Work experience section */
+#page-1 #work-experience {
+  padding-right: 5mm;
+}
+
+#page-1 #work-experience section p {
+  margin-top: 3mm;
+  margin-bottom: 3mm;
+}
+
+/* Education section */
+#page-1 #education p {
+  margin-top: 3mm;
+  margin-bottom: 3mm;
+}
+
+/* Skills section */
+#page-1 #skills h2 {
+  margin-top: 10mm;
+}
+
+/* Certifications section */
+#page-1 #certifications {
+  margin-top: 10mm;
+}
+
+/* Languages section */
+#page-1 #languages h2 {
+  margin-top: 10mm;
+}
+#page-1 #languages ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+#page-1 #languages ul li:not(:last-child) {
+  margin-bottom: 2mm;
+}
+
+#page-2 #header {
+  /* background-color: #0b0b6e; */
+
+  background: linear-gradient(to right, #0b0b6e, #151f28);
+  -webkit-clip-path: polygon(
+    0 0,
+    0 100%,
+    20mm 100%,
+    40mm 50%,
+    100% 50%,
+    100% 0
+  );
+  clip-path: polygon(0 0, 0 100%, 10mm 100%, 40mm 50%, 100% 50%, 100% 0);
+  /* background-color: #0b0b6e; */
+}
+
+/* Page 2 Volunteer work section */
+#page-2 #volunteer-work {
+  padding-right: 5mm;
+}
+/* About me section */
+#page-2 #volunteer-work h2 {
+  margin-top: 7mm;
+}
+
+/* Page 2 Self employment section */
+
+/* Page 2 Other skills section */
+#page-2 #other-skills h2 {
+  margin-top: 7mm;
+}
+#page-2 #other-skills ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+#page-2 #other-skills ul li:not(:last-child) {
+  margin-bottom: 2mm;
+}
+
+/* Page 2 Signature section */
+#page-2 #signature svg {
+  height: 8mm;
+  float: right;
+}
+
+/* Utility classes */
+.gray-and-bold {
+  color: #777777;
+  font-weight: 700;
+}
+
+span.detail {
+  display: inline;
+  color: #777777;
+}
+
+a.secret-link {
+  color: black;
+  text-decoration: none;
+}
+a.secret-link:hover {
+  text-decoration: underline;
+}
+
+.chip-list {
+  text-align: center;
+
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+.chip-list .chip {
+  display: inline-block;
+  font-size: 0.7em;
+  padding: 1mm 3mm;
+  margin-bottom: 2mm;
+  height: 4mm;
+  line-height: 4mm;
+  border-radius: 3mm;
+  background-color: #5c5c85;
+  color: #ffffff;
+  cursor: default;
+
+  transition: background-color 0.2s ease-in-out;
+}
+.chip-list .chip:hover {
+  background-color: #0b0b6e;
+}
+
+.image-list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 2mm;
+
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+.image-list img {
+  transition: transform 0.2s ease-in-out;
+}
+.image-list img:hover {
+  transform: scale(1.1);
+}
